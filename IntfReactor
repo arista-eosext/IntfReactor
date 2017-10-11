@@ -1,0 +1,11 @@
+agentName:IntfReactor
+
+Include: EosSdk_agent.include
+Include: EosSdk_eth_intf.include
+Include: EosSdk_eth_lag_intf.include
+Include: EosSdk_eth_phy_intf.include
+Include: EosSdk_intf.include
+Include: EosSdk_IntfMgrHelper.include
+Include: EosSdk_ip_intf.include
+Include: EosSdk_subintf.include
+Include: EosSdk_system.include
