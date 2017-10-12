@@ -4,10 +4,11 @@ The purpose of this utility is to react to interface changes. This can be done w
 feature in EOS, but each interface has to be defined individually. 
 
 Example:
+```
 event-handler TEST
    trigger on-intf Ethernet1 operstatus  <---currently forces us to select one interface
    action bash script
-
+```
 On the other hand, with this SDK based script, you can provide a list of interfaces in which you can execute
 a script and pass the interface and status as variables.
 
