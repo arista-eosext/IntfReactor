@@ -25,7 +25,7 @@ list of interfaces in which you can execute a script and pass the interface and 
 The executed script when an interface changes status, must NOT be blocking.
 
 Add the following configuration snippets to change the default behavior. For the list
-of IPs to check, separate with a comma.
+of Interfaces to check, separate with a comma.
 ```
 daemon IntfReactor
    exec /usr/local/bin/IntfReactor
