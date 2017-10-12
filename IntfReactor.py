@@ -64,7 +64,7 @@ class intfReactor(eossdk.AgentHandler,eossdk.IntfHandler):
       self.agentMgr.status_set("Status:", "Administratively Up")
       INTERFACELIST = self.agentMgr.agent_option("interfacelist")
       if not INTERFACELIST:
-         # No IPv4 list of IPs initially set
+         # No Interface list set
          self.agentMgr.status_set("Monitoring Interfaces:", "None")
       else:
          # Handle the initial state
